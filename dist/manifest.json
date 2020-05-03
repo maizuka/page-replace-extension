@@ -1,0 +1,20 @@
+{
+  "name": "Page Replace Extension",
+  "version": "1.0",
+  "description": "この拡張は表示しているページ中のテキストを置換します。",
+  "icons": {
+    "128": "images/icon128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab", "storage"],
+  "browser_action": {
+    "default_icon": {
+      "128": "images/icon128.png"
+    }
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}
