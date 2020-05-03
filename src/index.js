@@ -1,4 +1,4 @@
-import findAndReplaceDOMText from "findAndReplaceDOMText";
+import findAndReplaceDOMText from "findandreplacedomtext";
 
 chrome.storage.sync.get(['findSource', 'findGlobal', 'findIgnoreCase', 'replace'], function(data) {
   let findFlag = '';
