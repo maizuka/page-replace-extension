@@ -1,9 +1,9 @@
 chrome.runtime.onInstalled.addListener(function() {
   chrome.storage.sync.set({
-    findSource: "。",
+    findSource: "、(.*?)。",
     findGlobal: true,
     findIgnoreCase: false,
-    replace: "あ"
+    replace: ",$1."
   }, function() {
     console.log("Initial variables have been set.");
   });
